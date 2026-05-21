@@ -137,7 +137,7 @@ def save_record(name: str, score: int, difficulty: str) -> str:
     """
     init_firebase()
     record_id = str(uuid.uuid4())
-    firebase_db.reference("records").push({
+    firebase_db.reference("records_chinese").push({
         "id":         record_id,
         "name":       name,
         "score":      score,
@@ -152,7 +152,7 @@ def save_record(name: str, score: int, difficulty: str) -> str:
 def load_records_cached() -> list:
     """從 Firebase 讀取所有成績（快取 30 秒）。"""
     init_firebase()
-    data = firebase_db.reference("records").get()
+    data = firebase_db.reference("records_chinese").get()
     if not data:
         return []
     # Firebase 回傳 dict（key: push_key, value: record_dict）
@@ -402,7 +402,7 @@ elif st.session_state.step == "quiz":
                         correct = (user_ans == current_q["answer"])
                         if correct:
                             st.session_state.streak += 1
-                            points = time_left + (st.session_state.streak-1) * STREAK_BONUS
+                            points = time_left + st.session_state.streak * STREAK_BONUS
                         else:
                             st.session_state.streak = 0
                             points = 0
