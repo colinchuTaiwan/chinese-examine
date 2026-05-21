@@ -1,1 +1,1302 @@
-[]
+[
+  {
+    "question": "下列哪一個成語用來形容做事有條理？",
+    "options": [
+      "井井有條",
+      "七上八下",
+      "半途而廢",
+      "不知所措"
+    ],
+    "answer": "井井有條",
+    "explanation": "「井井有條」形容條理分明、整齊有序。",
+    "id": "junior_chinese_001",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「畫蛇添足」的意思最接近下列何者？",
+    "options": [
+      "多此一舉",
+      "事半功倍",
+      "雪中送炭",
+      "迎刃而解"
+    ],
+    "answer": "多此一舉",
+    "explanation": "「畫蛇添足」比喻做了多餘的事，反而不恰當。",
+    "id": "junior_chinese_002",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句沒有語病？",
+    "options": [
+      "他不但功課好，而且品行也佳。",
+      "因為下雨的關係，所以所以比賽延後。",
+      "我們必須要應該準時到校。",
+      "這本書的內容非常很精彩。"
+    ],
+    "answer": "他不但功課好，而且品行也佳。",
+    "explanation": "A句關聯詞使用正確，其他選項有重複或贅詞。",
+    "id": "junior_chinese_003",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「滔滔不絕」最適合形容什麼？",
+    "options": [
+      "說話連續不停",
+      "走路非常緩慢",
+      "天氣十分寒冷",
+      "心情非常平靜"
+    ],
+    "answer": "說話連續不停",
+    "explanation": "「滔滔不絕」常形容話很多，連續不斷。",
+    "id": "junior_chinese_004",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「謹慎」意思相近？",
+    "options": [
+      "小心",
+      "魯莽",
+      "粗心",
+      "急躁"
+    ],
+    "answer": "小心",
+    "explanation": "「謹慎」是小心慎重的意思。",
+    "id": "junior_chinese_005",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「慷慨」意思相反？",
+    "options": [
+      "吝嗇",
+      "大方",
+      "豪爽",
+      "熱心"
+    ],
+    "answer": "吝嗇",
+    "explanation": "「慷慨」指大方不吝惜，反義詞是「吝嗇」。",
+    "id": "junior_chinese_006",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列文句中，哪一個標點符號使用最恰當？",
+    "options": [
+      "媽媽說：「吃飯了！」",
+      "媽媽說，：「吃飯了！」",
+      "媽媽說：「吃飯了」！",
+      "媽媽說「：吃飯了！」"
+    ],
+    "answer": "媽媽說：「吃飯了！」",
+    "explanation": "引述人物說話時，冒號與引號的位置應正確。",
+    "id": "junior_chinese_007",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「未雨綢繆」的意思是什麼？",
+    "options": [
+      "事先做好準備",
+      "雨天出門",
+      "臨時抱佛腳",
+      "事情結束後檢討"
+    ],
+    "answer": "事先做好準備",
+    "explanation": "「未雨綢繆」比喻事先預防、做好準備。",
+    "id": "junior_chinese_008",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個成語用來形容非常安靜？",
+    "options": [
+      "鴉雀無聲",
+      "人聲鼎沸",
+      "熱鬧非凡",
+      "鑼鼓喧天"
+    ],
+    "answer": "鴉雀無聲",
+    "explanation": "「鴉雀無聲」形容非常安靜。",
+    "id": "junior_chinese_009",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「望梅止渴」比喻什麼？",
+    "options": [
+      "用空想安慰自己",
+      "真正解決問題",
+      "努力完成目標",
+      "幫助他人成功"
+    ],
+    "answer": "用空想安慰自己",
+    "explanation": "「望梅止渴」比喻以空想來安慰自己。",
+    "id": "junior_chinese_010",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句使用「因為……所以……」最正確？",
+    "options": [
+      "因為他努力，所以成績進步。",
+      "因為他努力，但是成績進步。",
+      "雖然他努力，所以成績進步。",
+      "如果他努力，所以成績進步。"
+    ],
+    "answer": "因為他努力，所以成績進步。",
+    "explanation": "「因為……所以……」表示因果關係。",
+    "id": "junior_chinese_011",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常危急」？",
+    "options": [
+      "千鈞一髮",
+      "風平浪靜",
+      "安然無恙",
+      "從容不迫"
+    ],
+    "answer": "千鈞一髮",
+    "explanation": "「千鈞一髮」比喻情況極為危急。",
+    "id": "junior_chinese_012",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「自相矛盾」是指什麼？",
+    "options": [
+      "前後說法互相衝突",
+      "自己鼓勵自己",
+      "彼此合作無間",
+      "遇事冷靜處理"
+    ],
+    "answer": "前後說法互相衝突",
+    "explanation": "「自相矛盾」指言語或行為前後抵觸。",
+    "id": "junior_chinese_013",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「欣喜若狂」意思相近？",
+    "options": [
+      "高興極了",
+      "悲傷不已",
+      "十分害怕",
+      "非常疑惑"
+    ],
+    "answer": "高興極了",
+    "explanation": "「欣喜若狂」形容高興到極點。",
+    "id": "junior_chinese_014",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「模糊」意思相反？",
+    "options": [
+      "清楚",
+      "朦朧",
+      "含糊",
+      "隱約"
+    ],
+    "answer": "清楚",
+    "explanation": "「模糊」的反義詞是「清楚」。",
+    "id": "junior_chinese_015",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句成語使用正確？",
+    "options": [
+      "他考試前臨時抱佛腳，才急忙複習。",
+      "他臨時抱佛腳，所以早就準備好了。",
+      "他每天臨時抱佛腳，十分有計畫。",
+      "他因為臨時抱佛腳，所以從不慌張。"
+    ],
+    "answer": "他考試前臨時抱佛腳，才急忙複習。",
+    "explanation": "「臨時抱佛腳」指平時不準備，到最後才匆忙應付。",
+    "id": "junior_chinese_016",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「一鳴驚人」用來形容什麼？",
+    "options": [
+      "平時不突出，一表現就很出色",
+      "一直吵鬧不停",
+      "唱歌聲音很大",
+      "聽到聲音嚇一跳"
+    ],
+    "answer": "平時不突出，一表現就很出色",
+    "explanation": "「一鳴驚人」比喻平時默默無聞，一表現就令人驚訝。",
+    "id": "junior_chinese_017",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常有把握」？",
+    "options": [
+      "胸有成竹",
+      "忐忑不安",
+      "猶豫不決",
+      "手足無措"
+    ],
+    "answer": "胸有成竹",
+    "explanation": "「胸有成竹」表示事前已有充分準備與把握。",
+    "id": "junior_chinese_018",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個句子最通順？",
+    "options": [
+      "放學後，我和同學一起到圖書館讀書。",
+      "我和同學讀書一起圖書館到放學後。",
+      "到圖書館我和同學放學後一起讀書。",
+      "讀書放學後圖書館我和同學一起。"
+    ],
+    "answer": "放學後，我和同學一起到圖書館讀書。",
+    "explanation": "A句語序自然、意思完整。",
+    "id": "junior_chinese_019",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「半途而廢」的意思是什麼？",
+    "options": [
+      "做到一半就放棄",
+      "成功完成任務",
+      "加倍努力",
+      "事先做好準備"
+    ],
+    "answer": "做到一半就放棄",
+    "explanation": "「半途而廢」表示事情尚未完成就停止。",
+    "id": "junior_chinese_020",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語用來形容「非常熱鬧」？",
+    "options": [
+      "人聲鼎沸",
+      "鴉雀無聲",
+      "冷冷清清",
+      "寂然無聲"
+    ],
+    "answer": "人聲鼎沸",
+    "explanation": "「人聲鼎沸」形容人聲喧鬧、場面熱鬧。",
+    "id": "junior_chinese_021",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「守株待兔」比喻什麼？",
+    "options": [
+      "不努力而妄想成功",
+      "勤奮耕作",
+      "善於觀察",
+      "努力追趕"
+    ],
+    "answer": "不努力而妄想成功",
+    "explanation": "「守株待兔」比喻不主動努力，只想僥倖成功。",
+    "id": "junior_chinese_022",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「彼此合作」？",
+    "options": [
+      "同心協力",
+      "各自為政",
+      "互不相讓",
+      "分道揚鑣"
+    ],
+    "answer": "同心協力",
+    "explanation": "「同心協力」指大家心意一致、共同努力。",
+    "id": "junior_chinese_023",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句「雖然……但是……」使用正確？",
+    "options": [
+      "雖然天氣很冷，但是大家仍準時到校。",
+      "雖然天氣很冷，所以大家仍準時到校。",
+      "因為天氣很冷，但是大家仍準時到校。",
+      "如果天氣很冷，但是大家仍準時到校。"
+    ],
+    "answer": "雖然天氣很冷，但是大家仍準時到校。",
+    "explanation": "「雖然……但是……」表示轉折關係。",
+    "id": "junior_chinese_024",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「迫不及待」表示什麼？",
+    "options": [
+      "急著想做某事",
+      "慢慢等待",
+      "完全不想做",
+      "不慌不忙"
+    ],
+    "answer": "急著想做某事",
+    "explanation": "「迫不及待」表示急迫得不能再等待。",
+    "id": "junior_chinese_025",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「勤奮」意思相反？",
+    "options": [
+      "懶惰",
+      "努力",
+      "用功",
+      "刻苦"
+    ],
+    "answer": "懶惰",
+    "explanation": "「勤奮」是努力不懈，反義詞是「懶惰」。",
+    "id": "junior_chinese_026",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個成語用來形容「很會保守祕密」？",
+    "options": [
+      "守口如瓶",
+      "滔滔不絕",
+      "口若懸河",
+      "高談闊論"
+    ],
+    "answer": "守口如瓶",
+    "explanation": "「守口如瓶」形容說話謹慎，能保守祕密。",
+    "id": "junior_chinese_027",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「杯弓蛇影」比喻什麼？",
+    "options": [
+      "疑神疑鬼，自相驚擾",
+      "看見蛇很勇敢",
+      "喝水時很小心",
+      "遇事冷靜分析"
+    ],
+    "answer": "疑神疑鬼，自相驚擾",
+    "explanation": "「杯弓蛇影」比喻因疑心而驚慌。",
+    "id": "junior_chinese_028",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「很有禮貌」？",
+    "options": [
+      "彬彬有禮",
+      "粗魯無禮",
+      "橫衝直撞",
+      "大吼大叫"
+    ],
+    "answer": "彬彬有禮",
+    "explanation": "「彬彬有禮」形容文雅且有禮貌。",
+    "id": "junior_chinese_029",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「態度非常平和」？",
+    "options": [
+      "心平氣和",
+      "暴跳如雷",
+      "怒氣沖天",
+      "火冒三丈"
+    ],
+    "answer": "心平氣和",
+    "explanation": "「心平氣和」表示情緒穩定、態度平和。",
+    "id": "junior_chinese_030",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「亡羊補牢」的意思是什麼？",
+    "options": [
+      "犯錯後及時補救",
+      "羊走失就放棄",
+      "事前完全準備",
+      "故意造成損失"
+    ],
+    "answer": "犯錯後及時補救",
+    "explanation": "「亡羊補牢」比喻出了問題後設法補救，仍有意義。",
+    "id": "junior_chinese_031",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常清楚」？",
+    "options": [
+      "一清二楚",
+      "模模糊糊",
+      "若隱若現",
+      "含糊其辭"
+    ],
+    "answer": "一清二楚",
+    "explanation": "「一清二楚」形容十分清楚明白。",
+    "id": "junior_chinese_032",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句最適合作為記敘文開頭？",
+    "options": [
+      "那天清晨，天空飄著細雨，我獨自走向校門。",
+      "所以我們應該保護環境。",
+      "總而言之，這件事讓我印象深刻。",
+      "以上就是我的看法。"
+    ],
+    "answer": "那天清晨，天空飄著細雨，我獨自走向校門。",
+    "explanation": "記敘文開頭常交代時間、地點、人物或情境。",
+    "id": "junior_chinese_033",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「雪中送炭」比喻什麼？",
+    "options": [
+      "在困難時給予幫助",
+      "天氣很冷",
+      "送禮給朋友",
+      "火爐需要木炭"
+    ],
+    "answer": "在困難時給予幫助",
+    "explanation": "「雪中送炭」比喻在別人最需要時給予幫助。",
+    "id": "junior_chinese_034",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「不慌張」？",
+    "options": [
+      "從容不迫",
+      "手忙腳亂",
+      "驚慌失措",
+      "六神無主"
+    ],
+    "answer": "從容不迫",
+    "explanation": "「從容不迫」表示鎮定、不慌張。",
+    "id": "junior_chinese_035",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「誠懇」意思相近？",
+    "options": [
+      "真誠",
+      "虛偽",
+      "狡猾",
+      "敷衍"
+    ],
+    "answer": "真誠",
+    "explanation": "「誠懇」指真心誠意。",
+    "id": "junior_chinese_036",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「掩耳盜鈴」比喻什麼？",
+    "options": [
+      "自欺欺人",
+      "保護耳朵",
+      "偷東西很聰明",
+      "聽不見聲音"
+    ],
+    "answer": "自欺欺人",
+    "explanation": "「掩耳盜鈴」比喻自己欺騙自己。",
+    "id": "junior_chinese_037",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「說話流利而多」？",
+    "options": [
+      "口若懸河",
+      "默默無言",
+      "吞吞吐吐",
+      "支支吾吾"
+    ],
+    "answer": "口若懸河",
+    "explanation": "「口若懸河」形容說話流暢且滔滔不絕。",
+    "id": "junior_chinese_038",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「遇事拿不定主意」？",
+    "options": [
+      "猶豫不決",
+      "當機立斷",
+      "斬釘截鐵",
+      "胸有成竹"
+    ],
+    "answer": "猶豫不決",
+    "explanation": "「猶豫不決」指遲疑，不能立刻決定。",
+    "id": "junior_chinese_039",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「刻舟求劍」比喻什麼？",
+    "options": [
+      "不知變通",
+      "很會划船",
+      "小心尋物",
+      "努力學習"
+    ],
+    "answer": "不知變通",
+    "explanation": "「刻舟求劍」比喻拘泥成法，不懂情況已改變。",
+    "id": "junior_chinese_040",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常整潔明亮」？",
+    "options": [
+      "窗明几淨",
+      "灰頭土臉",
+      "雜亂無章",
+      "髒亂不堪"
+    ],
+    "answer": "窗明几淨",
+    "explanation": "「窗明几淨」形容環境乾淨明亮。",
+    "id": "junior_chinese_041",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句沒有贅詞？",
+    "options": [
+      "我們應該珍惜時間。",
+      "我們應該要必須珍惜時間。",
+      "這件事情非常十分重要。",
+      "他大約差不多七點到。"
+    ],
+    "answer": "我們應該珍惜時間。",
+    "explanation": "A句語意清楚，沒有重複詞語。",
+    "id": "junior_chinese_042",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「井底之蛙」比喻什麼？",
+    "options": [
+      "見識狹小的人",
+      "住在井裡的青蛙",
+      "喜歡游泳的人",
+      "跳得很高的人"
+    ],
+    "answer": "見識狹小的人",
+    "explanation": "「井底之蛙」比喻見識有限、眼界狹窄。",
+    "id": "junior_chinese_043",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常得意」？",
+    "options": [
+      "洋洋得意",
+      "垂頭喪氣",
+      "愁眉苦臉",
+      "無精打采"
+    ],
+    "answer": "洋洋得意",
+    "explanation": "「洋洋得意」形容非常得意的樣子。",
+    "id": "junior_chinese_044",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「珍貴」意思相反？",
+    "options": [
+      "普通",
+      "寶貴",
+      "稀有",
+      "難得"
+    ],
+    "answer": "普通",
+    "explanation": "「珍貴」表示寶貴、難得，反義詞可為「普通」。",
+    "id": "junior_chinese_045",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「拔苗助長」比喻什麼？",
+    "options": [
+      "急於求成反而壞事",
+      "幫植物長高",
+      "努力種田",
+      "照顧幼苗"
+    ],
+    "answer": "急於求成反而壞事",
+    "explanation": "「拔苗助長」比喻急著求成，反而造成損害。",
+    "id": "junior_chinese_046",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「形容時間過得很快」？",
+    "options": [
+      "光陰似箭",
+      "度日如年",
+      "慢條斯理",
+      "遙遙無期"
+    ],
+    "answer": "光陰似箭",
+    "explanation": "「光陰似箭」形容時間過得很快。",
+    "id": "junior_chinese_047",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句轉折關係最清楚？",
+    "options": [
+      "他雖然失敗了，但是沒有放棄。",
+      "他因為失敗了，但是沒有放棄。",
+      "他如果失敗了，但是沒有放棄。",
+      "他不但失敗了，所以沒有放棄。"
+    ],
+    "answer": "他雖然失敗了，但是沒有放棄。",
+    "explanation": "「雖然……但是……」能清楚表達轉折。",
+    "id": "junior_chinese_048",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「聞雞起舞」比喻什麼？",
+    "options": [
+      "及時奮發努力",
+      "聽到雞叫跳舞",
+      "喜歡養雞",
+      "早上運動而已"
+    ],
+    "answer": "及時奮發努力",
+    "explanation": "「聞雞起舞」比喻有志之士及時奮起努力。",
+    "id": "junior_chinese_049",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常難過」？",
+    "options": [
+      "悲痛欲絕",
+      "欣喜若狂",
+      "心花怒放",
+      "眉開眼笑"
+    ],
+    "answer": "悲痛欲絕",
+    "explanation": "「悲痛欲絕」表示極度悲傷。",
+    "id": "junior_chinese_050",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「很會觀察細節」？",
+    "options": [
+      "明察秋毫",
+      "粗心大意",
+      "視而不見",
+      "馬馬虎虎"
+    ],
+    "answer": "明察秋毫",
+    "explanation": "「明察秋毫」形容觀察力敏銳，能看清細微之處。",
+    "id": "junior_chinese_051",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「狐假虎威」比喻什麼？",
+    "options": [
+      "倚仗別人的勢力欺人",
+      "狐狸和老虎合作",
+      "老虎害怕狐狸",
+      "動物很威風"
+    ],
+    "answer": "倚仗別人的勢力欺人",
+    "explanation": "「狐假虎威」比喻借助他人的權勢來嚇唬人。",
+    "id": "junior_chinese_052",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「事情容易解決」？",
+    "options": [
+      "迎刃而解",
+      "困難重重",
+      "舉步維艱",
+      "無計可施"
+    ],
+    "answer": "迎刃而解",
+    "explanation": "「迎刃而解」比喻主要問題解決後，相關問題也容易解決。",
+    "id": "junior_chinese_053",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語與「驕傲」意思相反？",
+    "options": [
+      "謙虛",
+      "自滿",
+      "得意",
+      "自大"
+    ],
+    "answer": "謙虛",
+    "explanation": "「驕傲」的反義詞是「謙虛」。",
+    "id": "junior_chinese_054",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「一舉兩得」表示什麼？",
+    "options": [
+      "做一件事有兩種收穫",
+      "只做一件小事",
+      "兩人一起比賽",
+      "一次失去兩樣東西"
+    ],
+    "answer": "做一件事有兩種收穫",
+    "explanation": "「一舉兩得」表示做一件事同時得到兩種好處。",
+    "id": "junior_chinese_055",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常熟練」？",
+    "options": [
+      "駕輕就熟",
+      "手忙腳亂",
+      "笨手笨腳",
+      "不知所措"
+    ],
+    "answer": "駕輕就熟",
+    "explanation": "「駕輕就熟」比喻對事情很熟悉，做起來輕鬆。",
+    "id": "junior_chinese_056",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句最適合作為議論文結尾？",
+    "options": [
+      "因此，我們應從現在開始珍惜水資源。",
+      "昨天早上，我走進教室。",
+      "忽然，一陣風吹來。",
+      "小狗在門口搖著尾巴。"
+    ],
+    "answer": "因此，我們應從現在開始珍惜水資源。",
+    "explanation": "議論文結尾常總結觀點並提出呼籲。",
+    "id": "junior_chinese_057",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「夜以繼日」表示什麼？",
+    "options": [
+      "日夜不停",
+      "只在晚上工作",
+      "白天睡覺",
+      "晚上看星星"
+    ],
+    "answer": "日夜不停",
+    "explanation": "「夜以繼日」形容日夜不停地做某事。",
+    "id": "junior_chinese_058",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常緊張不安」？",
+    "options": [
+      "忐忑不安",
+      "心平氣和",
+      "從容不迫",
+      "悠然自得"
+    ],
+    "answer": "忐忑不安",
+    "explanation": "「忐忑不安」形容心神不定、非常不安。",
+    "id": "junior_chinese_059",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「事情非常順利」？",
+    "options": [
+      "一帆風順",
+      "困難重重",
+      "危機四伏",
+      "進退兩難"
+    ],
+    "answer": "一帆風順",
+    "explanation": "「一帆風順」比喻事情進行順利。",
+    "id": "junior_chinese_060",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「對牛彈琴」比喻什麼？",
+    "options": [
+      "對不懂道理的人講道理",
+      "替牛演奏音樂",
+      "音樂很好聽",
+      "人和牛相處融洽"
+    ],
+    "answer": "對不懂道理的人講道理",
+    "explanation": "「對牛彈琴」比喻對不懂的人講深奧道理，白費力氣。",
+    "id": "junior_chinese_061",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「人很多，很擁擠」？",
+    "options": [
+      "摩肩接踵",
+      "門可羅雀",
+      "空無一人",
+      "冷冷清清"
+    ],
+    "answer": "摩肩接踵",
+    "explanation": "「摩肩接踵」形容人多擁擠。",
+    "id": "junior_chinese_062",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「彼此差別很大」？",
+    "options": [
+      "天壤之別",
+      "一模一樣",
+      "不相上下",
+      "半斤八兩"
+    ],
+    "answer": "天壤之別",
+    "explanation": "「天壤之別」形容差別極大。",
+    "id": "junior_chinese_063",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「同舟共濟」比喻什麼？",
+    "options": [
+      "共同克服困難",
+      "一起坐船旅行",
+      "各自逃走",
+      "互相爭吵"
+    ],
+    "answer": "共同克服困難",
+    "explanation": "「同舟共濟」比喻大家同心協力，共度難關。",
+    "id": "junior_chinese_064",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常專心」？",
+    "options": [
+      "全神貫注",
+      "心不在焉",
+      "東張西望",
+      "三心二意"
+    ],
+    "answer": "全神貫注",
+    "explanation": "「全神貫注」形容注意力高度集中。",
+    "id": "junior_chinese_065",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「心裡很害怕」？",
+    "options": [
+      "膽戰心驚",
+      "心花怒放",
+      "眉飛色舞",
+      "興高采烈"
+    ],
+    "answer": "膽戰心驚",
+    "explanation": "「膽戰心驚」形容非常害怕。",
+    "id": "junior_chinese_066",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「魚目混珠」比喻什麼？",
+    "options": [
+      "以假亂真",
+      "魚眼像珍珠",
+      "分辨魚類",
+      "珍珠很漂亮"
+    ],
+    "answer": "以假亂真",
+    "explanation": "「魚目混珠」比喻拿假的冒充真的。",
+    "id": "junior_chinese_067",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「名聲傳得很遠」？",
+    "options": [
+      "遠近馳名",
+      "默默無聞",
+      "無人知曉",
+      "銷聲匿跡"
+    ],
+    "answer": "遠近馳名",
+    "explanation": "「遠近馳名」表示名聲傳播很廣。",
+    "id": "junior_chinese_068",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「很有信心」？",
+    "options": [
+      "信心十足",
+      "垂頭喪氣",
+      "猶豫不決",
+      "驚慌失措"
+    ],
+    "answer": "信心十足",
+    "explanation": "「信心十足」表示充滿自信。",
+    "id": "junior_chinese_069",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「入木三分」可用來形容什麼？",
+    "options": [
+      "見解深刻",
+      "木頭很硬",
+      "寫字很淺",
+      "刀子很利"
+    ],
+    "answer": "見解深刻",
+    "explanation": "「入木三分」常比喻見解、描寫深刻。",
+    "id": "junior_chinese_070",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「學問或才能很高」？",
+    "options": [
+      "才高八斗",
+      "不學無術",
+      "孤陋寡聞",
+      "目不識丁"
+    ],
+    "answer": "才高八斗",
+    "explanation": "「才高八斗」形容人很有才華。",
+    "id": "junior_chinese_071",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句使用「不但……而且……」正確？",
+    "options": [
+      "他不但會畫畫，而且會彈琴。",
+      "他不但會畫畫，但是會彈琴。",
+      "他因為會畫畫，而且會彈琴。",
+      "他如果會畫畫，而且會彈琴。"
+    ],
+    "answer": "他不但會畫畫，而且會彈琴。",
+    "explanation": "「不但……而且……」表示遞進關係。",
+    "id": "junior_chinese_072",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「一視同仁」表示什麼？",
+    "options": [
+      "同樣看待，不偏心",
+      "只看一個人",
+      "大家長得一樣",
+      "仁慈對待自己"
+    ],
+    "answer": "同樣看待，不偏心",
+    "explanation": "「一視同仁」表示平等看待每個人。",
+    "id": "junior_chinese_073",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常後悔」？",
+    "options": [
+      "懊悔不已",
+      "得意洋洋",
+      "滿不在乎",
+      "心滿意足"
+    ],
+    "answer": "懊悔不已",
+    "explanation": "「懊悔不已」表示非常後悔。",
+    "id": "junior_chinese_074",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「事情突然發生」？",
+    "options": [
+      "突如其來",
+      "按部就班",
+      "循序漸進",
+      "早有準備"
+    ],
+    "answer": "突如其來",
+    "explanation": "「突如其來」形容事情突然發生。",
+    "id": "junior_chinese_075",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「得意忘形」表示什麼？",
+    "options": [
+      "高興過頭而失去常態",
+      "非常謙虛",
+      "忘記形狀",
+      "努力不懈"
+    ],
+    "answer": "高興過頭而失去常態",
+    "explanation": "「得意忘形」指因得意而失去平常的樣子。",
+    "id": "junior_chinese_076",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「形容景色美麗」？",
+    "options": [
+      "風景如畫",
+      "寸草不生",
+      "荒涼破敗",
+      "烏煙瘴氣"
+    ],
+    "answer": "風景如畫",
+    "explanation": "「風景如畫」形容景色美得像畫一樣。",
+    "id": "junior_chinese_077",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「做事有始有終」？",
+    "options": [
+      "持之以恆",
+      "半途而廢",
+      "虎頭蛇尾",
+      "三天打魚"
+    ],
+    "answer": "持之以恆",
+    "explanation": "「持之以恆」表示長久堅持。",
+    "id": "junior_chinese_078",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「別出心裁」表示什麼？",
+    "options": [
+      "想法獨特新穎",
+      "隨便模仿別人",
+      "心裡很難過",
+      "裁剪衣服"
+    ],
+    "answer": "想法獨特新穎",
+    "explanation": "「別出心裁」指想法與眾不同、新穎。",
+    "id": "junior_chinese_079",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常忙碌」？",
+    "options": [
+      "席不暇暖",
+      "悠閒自在",
+      "無所事事",
+      "閒情逸致"
+    ],
+    "answer": "席不暇暖",
+    "explanation": "「席不暇暖」形容忙得連坐下來休息的時間都沒有。",
+    "id": "junior_chinese_080",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「遇到困難不退縮」？",
+    "options": [
+      "迎難而上",
+      "知難而退",
+      "半途而廢",
+      "臨陣脫逃"
+    ],
+    "answer": "迎難而上",
+    "explanation": "「迎難而上」表示面對困難仍勇敢前進。",
+    "id": "junior_chinese_081",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「名副其實」表示什麼？",
+    "options": [
+      "名稱或名聲與實際相符",
+      "名字很特別",
+      "名氣比實力大",
+      "實際完全不符"
+    ],
+    "answer": "名稱或名聲與實際相符",
+    "explanation": "「名副其實」指名聲或名稱和實際相符合。",
+    "id": "junior_chinese_082",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「很少見到」？",
+    "options": [
+      "屈指可數",
+      "數不勝數",
+      "比比皆是",
+      "多如牛毛"
+    ],
+    "answer": "屈指可數",
+    "explanation": "「屈指可數」表示數量很少。",
+    "id": "junior_chinese_083",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常多」？",
+    "options": [
+      "不勝枚舉",
+      "寥寥無幾",
+      "屈指可數",
+      "鳳毛麟角"
+    ],
+    "answer": "不勝枚舉",
+    "explanation": "「不勝枚舉」表示多得列舉不完。",
+    "id": "junior_chinese_084",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「拋磚引玉」表示什麼？",
+    "options": [
+      "用粗淺意見引出高明見解",
+      "把磚丟出去",
+      "用玉換磚",
+      "修建房子"
+    ],
+    "answer": "用粗淺意見引出高明見解",
+    "explanation": "「拋磚引玉」常作謙詞，指先提出粗淺看法，引出更好的意見。",
+    "id": "junior_chinese_085",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常熟悉」？",
+    "options": [
+      "瞭如指掌",
+      "一知半解",
+      "茫然不解",
+      "不甚了解"
+    ],
+    "answer": "瞭如指掌",
+    "explanation": "「瞭如指掌」表示了解得非常清楚。",
+    "id": "junior_chinese_086",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一句最符合「承上啟下」的作用？",
+    "options": [
+      "前面介紹了原因，接下來談解決方法。",
+      "今天早上我吃了早餐。",
+      "天空很藍，雲很白。",
+      "小明喜歡打球。"
+    ],
+    "answer": "前面介紹了原因，接下來談解決方法。",
+    "explanation": "「承上啟下」是連接前文與後文的過渡作用。",
+    "id": "junior_chinese_087",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「塞翁失馬」常用來說明什麼道理？",
+    "options": [
+      "禍福可能互相轉化",
+      "失去馬一定很倒楣",
+      "老人不會養馬",
+      "事情永遠不會改變"
+    ],
+    "answer": "禍福可能互相轉化",
+    "explanation": "「塞翁失馬」表示一時的得失未必是絕對的禍福。",
+    "id": "junior_chinese_088",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「說話很少」？",
+    "options": [
+      "沉默寡言",
+      "滔滔不絕",
+      "口若懸河",
+      "喋喋不休"
+    ],
+    "answer": "沉默寡言",
+    "explanation": "「沉默寡言」形容不太說話。",
+    "id": "junior_chinese_089",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「改正錯誤」？",
+    "options": [
+      "改過自新",
+      "執迷不悟",
+      "一錯再錯",
+      "明知故犯"
+    ],
+    "answer": "改過自新",
+    "explanation": "「改過自新」表示改正過錯，重新做人。",
+    "id": "junior_chinese_090",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「水落石出」比喻什麼？",
+    "options": [
+      "真相大白",
+      "水乾石頭出現",
+      "河水變少",
+      "石頭很多"
+    ],
+    "answer": "真相大白",
+    "explanation": "「水落石出」比喻事情真相完全顯露。",
+    "id": "junior_chinese_091",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「十分荒涼」？",
+    "options": [
+      "寸草不生",
+      "綠意盎然",
+      "花團錦簇",
+      "生氣蓬勃"
+    ],
+    "answer": "寸草不生",
+    "explanation": "「寸草不生」形容土地貧瘠荒涼。",
+    "id": "junior_chinese_092",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「非常有名」？",
+    "options": [
+      "家喻戶曉",
+      "無人問津",
+      "默默無聞",
+      "鮮為人知"
+    ],
+    "answer": "家喻戶曉",
+    "explanation": "「家喻戶曉」表示人人都知道。",
+    "id": "junior_chinese_093",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「紙上談兵」比喻什麼？",
+    "options": [
+      "空談理論，不能解決實際問題",
+      "在紙上畫兵器",
+      "喜歡讀兵書",
+      "寫字很認真"
+    ],
+    "answer": "空談理論，不能解決實際問題",
+    "explanation": "「紙上談兵」比喻只談理論，缺乏實際能力。",
+    "id": "junior_chinese_094",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「互相幫忙」？",
+    "options": [
+      "相輔相成",
+      "互相排斥",
+      "彼此敵對",
+      "各不相干"
+    ],
+    "answer": "相輔相成",
+    "explanation": "「相輔相成」表示彼此輔助、互相促進。",
+    "id": "junior_chinese_095",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「沒有聲音」？",
+    "options": [
+      "寂然無聲",
+      "人聲鼎沸",
+      "鑼鼓喧天",
+      "喧鬧不已"
+    ],
+    "answer": "寂然無聲",
+    "explanation": "「寂然無聲」形容完全沒有聲音。",
+    "id": "junior_chinese_096",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「破釜沉舟」表示什麼？",
+    "options": [
+      "下定決心，不留退路",
+      "打破鍋子和船",
+      "煮飯時失敗",
+      "放棄比賽"
+    ],
+    "answer": "下定決心，不留退路",
+    "explanation": "「破釜沉舟」比喻下定決心奮戰到底。",
+    "id": "junior_chinese_097",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「很會安排時間」？",
+    "options": [
+      "有條不紊",
+      "手忙腳亂",
+      "雜亂無章",
+      "顧此失彼"
+    ],
+    "answer": "有條不紊",
+    "explanation": "「有條不紊」形容有條理，不混亂。",
+    "id": "junior_chinese_098",
+    "difficulty": "junior"
+  },
+  {
+    "question": "下列哪一個詞語表示「十分害羞」？",
+    "options": [
+      "靦腆含蓄",
+      "落落大方",
+      "侃侃而談",
+      "高談闊論"
+    ],
+    "answer": "靦腆含蓄",
+    "explanation": "「靦腆含蓄」可形容害羞、不善表露。",
+    "id": "junior_chinese_099",
+    "difficulty": "junior"
+  },
+  {
+    "question": "「前車之鑑」表示什麼？",
+    "options": [
+      "可作為後人警惕的教訓",
+      "前面的車很好看",
+      "開車要小心",
+      "車子壞掉了"
+    ],
+    "answer": "可作為後人警惕的教訓",
+    "explanation": "「前車之鑑」指過去的失敗可作為教訓。",
+    "id": "junior_chinese_100",
+    "difficulty": "junior"
+  }
+]
