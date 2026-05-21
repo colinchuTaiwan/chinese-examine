@@ -86,7 +86,7 @@ FILES = {
 # =========================
 
 # 直接寫死 raw URL，不依賴 secrets，最穩定
-GITHUB_RAW_BASE = "https://raw.githubusercontent.com/colinchuTaiwan/english-examine/main"
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/colinchuTaiwan/chinese-examine/main"
 
 @st.cache_data(ttl=300)
 def load_questions_cached(filepath: str) -> list:
