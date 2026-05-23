@@ -111,6 +111,16 @@ def show_feedback_qrcode():
     with col_txt:
         st.write("掃描左側 QR Code，協助我們把測驗做得更好！")
 
+def show_feedback_qrcode():
+    """顯示意見表單的 QR Code"""
+    st.markdown("---")
+    st.markdown("### 📣 歡迎填寫意見表單")
+    
+    # 確保將上傳的 QR Code 圖片命名為 '意見表單QRCode.png' 並放在與 history_app.py 同個資料夾下
+    if os.path.exists("意見表單QRCode.png"):
+        st.write("掃描 QR Code，協助我們把國語測驗做得更好！")
+        st.image("意見表單QRCode.png", width=160)
+
 # =========================
 # 設定
 # =========================
