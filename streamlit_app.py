@@ -24,6 +24,9 @@ requirements.txt：
     requests
 """
 
+
+
+
 import streamlit as st
 import json
 import os
@@ -51,7 +54,7 @@ def init_firebase():
 
     # 明確取出每個欄位，避免 dict 轉換後 key 遺失問題
     cert_dict = {
-        "type":                        s["type"],
+        "type":                         s["type"],
         "project_id":                  s["project_id"],
         "private_key_id":              s["private_key_id"],
         "private_key":                 s["private_key"].replace("\n", "\n").replace("\\n", "\n"),
@@ -68,11 +71,53 @@ def init_firebase():
     return firebase_admin.initialize_app(cred, {"databaseURL": database_url})
 
 # =========================
+# 訪客計數器與意見表單功能
+# =========================
+
+def track_visitor(site_id: str) -> int:
+    """
+    依據網站識別碼 (site_id) 進行獨立計數。
+    使用 Firebase Transaction 確保多人同時操作時數據準確。
+    """
+    init_firebase()
+    counter_ref = firebase_db.reference(f"visitor_counts/{site_id}")
+    
+    def increment_transaction(current_value):
+        return (current_value or 0) + 1
+
+    try:
+        # 僅在 session 中尚未計數過時才增加，避免重新整理頁面重複計算
+        if "counted" not in st.session_state:
+            snapshot = counter_ref.transaction(increment_transaction)
+            st.session_state["counted"] = True
+            return snapshot
+        else:
+            current = counter_ref.get()
+            return current if current is not None else 0
+    except Exception:
+        return 0
+
+def show_feedback_qrcode():
+    """顯示意見表單的 QR Code（僅保留圖片與說明，移除按鈕）"""
+    st.markdown("---")
+    st.markdown("### 📣 歡迎填寫意見表單")
+    col_qr, col_txt = st.columns([1, 2])
+    with col_qr:
+        # 請確保將上傳的 QR Code 圖片命名為 '意見表單QRCode.png' 並放在與 chinese_app.py 同個資料夾下
+        if os.path.exists("意見表單QRCode.png"):
+            st.image("意見表單QRCode.png", width=140)
+        else:
+            st.caption("📷 QR Code 圖片未讀取")
+    with col_txt:
+        st.write("掃描左側 QR Code，協助我們把測驗做得更好！")
+
+# =========================
 # 設定
 # =========================
 
 TIME_LIMIT   = 30
 STREAK_BONUS = 5
+SITE_ID      = "site_chinese_examine"  # 本網站的獨立識別碼，區隔其他網站
 
 FILES = {
     "國小": "db/element.json",
@@ -80,6 +125,9 @@ FILES = {
     "高中": "db/high.json",
     "練習": "db/practice.json",
 }
+
+# 觸發獨立網站計數器更新
+visitor_count = track_visitor(SITE_ID)
 
 # =========================
 # GitHub 讀取題庫（公開 repo，固定 raw URL）
@@ -244,6 +292,7 @@ st.markdown("""
 .champ-name { font-size:1rem; font-weight:700; color:#1e88e5; }
 .champ-score{ font-size:.9rem; color:#333; }
 .champ-date { font-size:.75rem; color:#999; }
+.visitor-badge { text-align:center; color:#666; font-size:0.85rem; margin-bottom:1.5rem; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -255,6 +304,9 @@ if st.session_state.step == "login":
     st.markdown('<div class="big-title">📚 國語測驗挑戰網</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-title">測試你的國語實力，挑戰榮譽榜！</div>', unsafe_allow_html=True)
 
+    # 顯示獨立網站訪客計數
+    st.markdown(f'<div class="visitor-badge">總瀏覽人次：{visitor_count} 次</div>', unsafe_allow_html=True)
+
     with st.form("login_form"):
         name      = st.text_input("請輸入你的名字：", placeholder="例如：小明")
         submitted = st.form_submit_button("進入測驗 →", use_container_width=True)
@@ -265,6 +317,9 @@ if st.session_state.step == "login":
                 st.rerun()
             else:
                 st.warning("請先輸入名字！")
+
+    # 顯示表單 QRCode
+    show_feedback_qrcode()
 
 # =========================
 # ② 測驗設定 ＋ 榮譽榜
@@ -296,7 +351,7 @@ elif st.session_state.step == "setup":
             if len(all_qs) < q_count:
                 st.error(
                     f"「{difficulty}」題庫目前只有 {len(all_qs)} 題，"
-                    f"請先執行 generate_chinese_questions.py 補充題目，或選擇較少題數。"
+                    f"請確認該難度的 JSON 題庫完整度，或選擇較少題數。"
                 )
             else:
                 st.session_state.questions    = random.sample(all_qs, q_count)
@@ -451,11 +506,11 @@ elif st.session_state.step == "show_result":
     st.markdown(f"### {current_q['question']}")
     for opt in current_q["options"]:
         if opt == current_q["answer"]:
-            st.markdown(f"✅ &nbsp; **{opt}**　←　正確答案", unsafe_allow_html=True)
+            st.markdown(f"✅ &nbsp; **{opt}** ← 正確答案", unsafe_allow_html=True)
         elif opt == st.session_state.last_answer and not correct:
-            st.markdown(f"❌ &nbsp; ~~{opt}~~　←　你的答案", unsafe_allow_html=True)
+            st.markdown(f"❌ &nbsp; ~~{opt}~~ ← 你的答案", unsafe_allow_html=True)
         else:
-            st.markdown(f"　　{opt}")
+            st.markdown(f"  {opt}")
 
     st.info(f"📖 **解析：** {current_q['explanation']}")
 
@@ -482,8 +537,8 @@ elif st.session_state.step == "result":
     st.markdown('<div class="big-title">🎉 測驗結束！</div>', unsafe_allow_html=True)
     st.markdown(
         f"<div style='text-align:center;color:#666'>"
-        f"玩家：{st.session_state.name}　｜　"
-        f"難度：{st.session_state.difficulty}　｜　"
+        f"玩家：{st.session_state.name} ｜ "
+        f"難度：{st.session_state.difficulty} ｜ "
         f"題數：{len(st.session_state.questions)}</div>",
         unsafe_allow_html=True,
     )
@@ -517,3 +572,6 @@ elif st.session_state.step == "result":
         if st.button("🏅 查看榮譽榜", use_container_width=True):
             reset_session(keep_name=True)
             st.rerun()
+
+    # 結束測驗頁面也顯示表單 QRCode 邀請填寫
+    show_feedback_qrcode()
