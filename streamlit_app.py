@@ -78,6 +78,15 @@ def init_firebase():
 # 訪客計數器與意見表單功能
 # =========================
 
+@st.cache_data(ttl=300)  # 5 分鐘快取，避免每次 rerun 都對 Firebase 做即時讀取
+def _get_visitor_count_cached(site_id: str) -> int:
+    counter_ref = firebase_db.reference(f"visitor_counts/{site_id}")
+    try:
+        current = counter_ref.get()
+        return current if current is not None else 0
+    except Exception:
+        return 0
+
 def track_visitor(site_id: str) -> int:
     """
     依據網站識別碼 (site_id) 進行獨立計數。
@@ -96,8 +105,7 @@ def track_visitor(site_id: str) -> int:
             st.session_state["counted"] = True
             return snapshot
         else:
-            current = counter_ref.get()
-            return current if current is not None else 0
+            return _get_visitor_count_cached(site_id)
     except Exception:
         return 0
 
